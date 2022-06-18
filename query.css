@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    
+}
+.box{
+    background:url(backpi.jpg);
+    border: 2px solid grey;
+
+}
+h1{
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    font-family: Arial;
+    width: 400px;
+    font-size: 45px;
+    font-weight: bold;
+}
+p{
+    width: 400px;
+    position: relative;
+    top: 130px;
+    left: 200px;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+}
+.Main{
+    width: 400px;
+    
+}
+.big{
+    left: 760px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(64, 56, 114);
+    border-radius: 10px;
+    position: relative;
+    top: 85px;
+    color: white;
+    width: 400px;
+    margin-top: 50px;
+}
+form{
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    height: 350px;
+    margin-bottom: 20px;
+    bottom: 130px;
+    cursor: pointer;
+    position: relative;
+    left: 760px;
+}
+input[type=text], select{
+    padding: 12px 20px;
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+button{
+    padding: 13px;
+    width: 320px;
+    background-color: rgb(74, 192, 125);
+    border: none;
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.small{
+    font-size: 10px;
+    color: #ccc;
+    position: relative;
+    left: 10px;
+    top: 2px;
+    font-family: Tahoma;
+}
+/* For desktop: */
+@media only screen and (min-width:1440px){
+    [class*="box"]{
+        width: 800px;
+    }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="box"] {
+    width: 375px;
+  }
+}
